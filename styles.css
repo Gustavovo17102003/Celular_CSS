@@ -24,6 +24,17 @@ body{
     border: 2px solid rgb(0, 0, 0);
   }
 
+  
+
+  .bateria_interno {
+    top: 1px;
+    margin: 1px auto;
+    width: 16px;
+    height: 6px;
+    background-color: #faf8f8;
+}
+
+
 
   .celular:hover{
   }
