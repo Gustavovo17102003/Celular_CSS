@@ -1,4 +1,9 @@
+body{
+  display: block;
+  background-image: linear-gradient( 112.1deg,  rgba(77,238,253,1) 0.7%, rgba(3,151,232,1) 26.1%, rgba(47,31,116,1) 95.7% );
+}
 .celular {
+  border-style: double;
     box-sizing: border-box;
     box-shadow: 2px 2px 2px black;
     border: 1px solid black;
@@ -6,16 +11,23 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 600px;
-    width: 300px;
+    height: 500px;
+    width: 250px;
     margin: 20% auto;
     background-color: black;
-    transform: scale(1);
-    transition: transform 1s;
   }
 
+
   .celular:hover{
-    transform: scale(1.1);
+  }
+  
+  .horas{
+    color: #333333;
+    top: auto;
+    margin-left: 38%;
+    margin-right: 38%;
+    margin-top: 0%;
+    
   }
   
   .tela{
@@ -23,15 +35,25 @@
     box-shadow: 1px 1px 5px black;
     border: 1px solid black;
     border-radius: 30px;
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: center;
-    height: 588px;
-    width: 288px;
+    height: 488px;
+    width: 238px;
     margin: 20% auto;
-    background-color: #C8C8C8;
+    background-color: #333333;
   }
   
   .camera{
-    
+    display: flex;
+    height: 18px;
+    width: 18px;
+    margin-top: 4%;
+    margin-left: 5%;
+    border-radius: 50%;
+    background-color: black;
+  }
+
+  .tela:hover{
+    background-color:#faf8f8 ;
   }
