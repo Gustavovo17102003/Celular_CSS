@@ -1,11 +1,11 @@
 body{
   display: block;
-  background-image: linear-gradient( 112.1deg,  rgba(77,238,253,1) 0.7%, rgba(3,151,232,1) 26.1%, rgba(47,31,116,1) 95.7% );
+  background-color: rgb(243, 112, 243);
 }
 .celular {
   border-style: double;
     box-sizing: border-box;
-    box-shadow: 2px 2px 2px black;
+    box-shadow: 1px 1px 1px black;
     border: 1px solid rgb(245, 242, 242);
     border-radius: 30px;
     display: flex;
